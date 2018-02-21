@@ -2,16 +2,16 @@
 int main()
 {
 int i,flag,n;
-char a[20];
+char str[20];
 gets(a);
-n=strlen(a);
+n=strlen(str);
 for(i=0;i<=n;i++)
 {
-if((a[i]>='a')&&(a[i]<='z')||(a[i]>='A')&&(a[i]<='Z'))
+if((str[i]>='a')&&(str[i]<='z')||(str[i]>='A')&&(str[i]<='Z'))
 {
 flag=1;
 }
-else if((a[i]>='0')&&(a[i]<='9'))
+else if((str[i]>='0')&&(str[i]<='9'))
 {
 flag=2;
 }
